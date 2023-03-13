@@ -1,5 +1,7 @@
 '''
-doc string
+Core module for PyPunk: a long-term project aimed at
+training a self-driving car in Cyberpunk 2077
+J-A-Collins
 '''
 
 # Imports
@@ -10,6 +12,19 @@ import time
 
 
 def screen_record():
+    """
+    Captures a screen recording of the region defined by the bbox parameter and displays it in a window.
+
+    The recording will continue until the user presses the 'q' key.
+
+    Parameters:
+    -----------
+    None
+
+    Returns:
+    --------
+    None
+    """
     last_time = time.time()
     while(True):
         printscreen = np.array(ImageGrab.grab(bbox=(0, 40, 1200, 600)))
