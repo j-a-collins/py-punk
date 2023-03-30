@@ -1,6 +1,6 @@
 # PyPunk
 
-![PyPunk Banner](img\pypunk-banner.png "PyPunk")
+![PyPunk Banner](./img/pypunk-banner.png "PyPunk Project Banner")
 
 PyPunk is a project aimed at building and training a self-driving car within the popular video game _Cyberpunk 2077_. The goal is to harness the power of AI and computer vision to create an autonomous vehicle capable of navigating the complex and dynamic environment of *Night City*. Remember, this is a project that is very much in progress...
 
